@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to [School Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #hero {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cta-button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to [School Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Empowering Future Leaders</h2>
+            <p>At [School Name], we provide a nurturing environment for students to grow academically and personally.</p>
+            <a href="#admissions" class="cta-button">Apply Now</a>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>[School Name] has been dedicated to providing quality education since [Year]. Our mission is to foster a love for learning and to prepare students for success in a global society.</p>
+        </section>
+
+        <section id="academics">
+            <h2>Academic Programs</h2>
+            <p>We offer a variety of programs tailored to meet the needs of our diverse student body, including:</p>
+            <ul>
+                <li>Elementary Education</li>
+                <li>Middle School Curriculum</li>
+                <li>High School Advanced Placement</li>
+                <li>Extracurricular Activities</li>
+            </ul>
+        </section>
+
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <p>We welcome new students to join our community. For more information on the admissions process, please visit our <a href="admissions.html">Admissions Page</a>.</p>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Open House: [Date]</li>
+                <li>Parent-Teacher Conferences: [Date]</li>
+                <li>Graduation Ceremony: [Date]</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out:</p>
+            <address>
+                <p>Email: <a href="mailto:info@schoolname.edu">info@schoolname.edu</a></p>
+                <p>Phone: [Phone Number]</p>
+                <p>Address: [School Address]</p>
+            </address>
+        </section>
+        <p>&copy; [Year] [School Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
